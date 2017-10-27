@@ -1,4 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway:300,300i|Roboto+Condensed');
+body {
+  background-color: #eee;
+  color: #777;
+}
+
 p, li {
   font-family: 'Roboto Condensed', sans-serif;
 }

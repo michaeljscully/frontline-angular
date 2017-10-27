@@ -10,5 +10,12 @@
 </head>
 <body>
   <app-root></app-root>
+  <script>
+    var app = angular.module('frontline', []);
+    app.controller('arraySplit', function($scope){
+      let dataString = "(id,created,employee(id,firstname,employeeType(id), lastname),location)";
+      $scope.response = dataString.split(',');
+    });
+  </script>
 </body>
 </html>
